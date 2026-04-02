@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="SANKALP 2026 – RCAS Innovation & Startup Cell Hackathon. A firm resolve for human-led innovation. Coimbatore, Tamil Nadu.">
+<meta property="og:title" content="SANKALP 2026 — RCAS Hackathon">
+<meta property="og:description" content="Rathinam College of Arts & Science Innovation & Startup Cell proudly presents SANKALP 2026 — a hackathon built on human resolve.">
+<title>SANKALP 2026 — RCAS Innovation & Startup Cell</title>
+
+<!-- Navigation bar -->
+<style>
+  .topnav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 999;
+    background: rgba(4,6,16,0.92);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 32px; height: 60px;
+  }
+  .topnav .brand {
+    font-family: 'Cinzel', serif;
+    font-size: 1rem; font-weight: 700;
+    background: linear-gradient(135deg, #FF6B00, #8B2FC9);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text; letter-spacing: 3px;
+  }
+  .topnav .nav-links { display: flex; gap: 24px; }
+  .topnav .nav-link {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase;
+    color: rgba(255,255,255,0.5); text-decoration: none;
+    transition: color 0.2s;
+  }
+  .topnav .nav-link:hover, .topnav .nav-link.active { color: #FF6B00; }
+  .topnav .reg-btn {
+    background: linear-gradient(135deg, #FF6B00, #8B2FC9);
+    color: white; font-family: 'Rajdhani', sans-serif;
+    font-size: 0.75rem; font-weight: 700; letter-spacing: 2px;
+    padding: 8px 20px; border-radius: 4px; text-decoration: none;
+    text-transform: uppercase;
+  }
+  @media(max-width:768px){
+    .topnav .nav-links { display: none; }
+    .topnav { padding: 0 16px; }
+  }
+  body { padding-top: 60px; }
+</style>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&family=Cinzel:wght@700;900&family=Catamaran:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- TOP NAVIGATION -->
+<nav class="topnav">
+  <div class="brand">SANKALP 2026</div>
+  <div class="nav-links">
+    <a href="#timeline" class="nav-link">Timeline</a>
+    <a href="#themes" class="nav-link">Themes</a>
+    <a href="#prizes" class="nav-link">Prizes</a>
+    <a href="#guidelines" class="nav-link">Guidelines</a>
+    <a href="#participation" class="nav-link">Participate</a>
+  </div>
+  <a href="#register" class="reg-btn">Register Now</a>
+</nav>
+
+
+<!-- ═══════════════════════════ HERO ═══════════════════════════ -->
+<div class="hero">
+  <div class="hero-grid"></div>
+
+  <!-- AI Neural Network Background SVG -->
+  <svg class="hero-bg-svg" xmlns="http://www.w3.org/2000/svg" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none;opacity:0.18;" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+    <!-- Neural net nodes -->
+    <g id="neural">
+      <!-- Layer 1 -->
+      <circle cx="80" cy="150" r="10" fill="#8B2FC9"/><circle cx="80" cy="300" r="10" fill="#8B2FC9"/><circle cx="80" cy="450" r="10" fill="#8B2FC9"/><circle cx="80" cy="600" r="10" fill="#8B2FC9"/>
+      <!-- Layer 2 -->
+      <circle cx="280" cy="100" r="12" fill="#FF6B00"/><circle cx="280" cy="250" r="12" fill="#FF6B00"/><circle cx="280" cy="400" r="12" fill="#FF6B00"/><circle cx="280" cy="550" r="12" fill="#FF6B00"/><circle cx="280" cy="680" r="12" fill="#FF6B00"/>
+      <!-- Layer 3 -->
+      <circle cx="500" cy="180" r="14" fill="#00AEEF"/><circle cx="500" cy="350" r="14" fill="#00AEEF"/><circle cx="500" cy="500" r="14" fill="#00AEEF"/><circle cx="500" cy="650" r="14" fill="#00AEEF"/>
+      <!-- Layer 4 -->
+      <circle cx="720" cy="120" r="12" fill="#6DC02F"/><circle cx="720" cy="300" r="12" fill="#6DC02F"/><circle cx="720" cy="460" r="12" fill="#6DC02F"/><circle cx="720" cy="620" r="12" fill="#6DC02F"/>
+      <!-- Layer 5 -->
+      <circle cx="940" cy="200" r="10" fill="#FFD700"/><circle cx="940" cy="400" r="10" fill="#FFD700"/><circle cx="940" cy="600" r="10" fill="#FFD700"/>
+      <!-- Layer 6 -->
+      <circle cx="1120" cy="300" r="14" fill="#8B2FC9"/><circle cx="1120" cy="500" r="14" fill="#8B2FC9"/>
+
+      <!-- Connections L1-L2 -->
+      <line x1="80" y1="150" x2="280" y2="100" stroke="#8B2FC9" stroke-width="0.8"/>
+      <line x1="80" y1="150" x2="280" y2="250" stroke="#8B2FC9" stroke-width="0.8"/>
+      <line x1="80" y1="300" x2="280" y2="250" stroke="#8B2FC9" stroke-width="0.8"/>
+      <line x1="80" y1="300" x2="280" y2="400" stroke="#8B2FC9" stroke-width="0.8"/>
+      <line x1="80" y1="450" x2="280" y2="400" stroke="#8B2FC9" stroke-width="0.8"/>
+      <line x1="80" y1="450" x2="280" y2="550" stroke="#8B2FC9" stroke-width="0.8"/>
+      <line x1="80" y1="600" x2="280" y2="550" stroke="#8B2FC9" stroke-width="0.8"/>
+      <line x1="80" y1="600" x2="280" y2="680" stroke="#8B2FC9" stroke-width="0.8"/>
+      <!-- Connections L2-L3 -->
+      <line x1="280" y1="100" x2="500" y2="180" stroke="#FF6B00" stroke-width="0.8"/>
+      <line x1="280" y1="250" x2="500" y2="180" stroke="#FF6B00" stroke-width="0.8"/>
+      <line x1="280" y1="250" x2="500" y2="350" stroke="#FF6B00" stroke-width="0.8"/>
+      <line x1="280" y1="400" x2="500" y2="350" stroke="#FF6B00" stroke-width="0.8"/>
+      <line x1="280" y1="400" x2="500" y2="500" stroke="#FF6B00" stroke-width="0.8"/>
+      <line x1="280" y1="550" x2="500" y2="500" stroke="#FF6B00" stroke-width="0.8"/>
+      <line x1="280" y1="550" x2="500" y2="650" stroke="#FF6B00" stroke-width="0.8"/>
+      <line x1="280" y1="680" x2="500" y2="650" stroke="#FF6B00" stroke-width="0.8"/>
+      <!-- Connections L3-L4 -->
+      <line x1="500" y1="180" x2="720" y2="120" stroke="#00AEEF" stroke-width="0.8"/>
+      <line x1="500" y1="180" x2="720" y2="300" stroke="#00AEEF" stroke-width="0.8"/>
+      <line x1="500" y1="350" x2="720" y2="300" stroke="#00AEEF" stroke-width="0.8"/>
+      <line x1="500" y1="350" x2="720" y2="460" stroke="#00AEEF" stroke-width="0.8"/>
+      <line x1="500" y1="500" x2="720" y2="460" stroke="#00AEEF" stroke-width="0.8"/>
+      <line x1="500" y1="500" x2="720" y2="620" stroke="#00AEEF" stroke-width="0.8"/>
+      <line x1="500" y1="650" x2="720" y2="620" stroke="#00AEEF" stroke-width="0.8"/>
+      <!-- Connections L4-L5 -->
+      <line x1="720" y1="120" x2="940" y2="200" stroke="#6DC02F" stroke-width="0.8"/>
+      <line x1="720" y1="300" x2="940" y2="200" stroke="#6DC02F" stroke-width="0.8"/>
+      <line x1="720" y1="300" x2="940" y2="400" stroke="#6DC02F" stroke-width="0.8"/>
+      <line x1="720" y1="460" x2="940" y2="400" stroke="#6DC02F" stroke-width="0.8"/>
+      <line x1="720" y1="460" x2="940" y2="600" stroke="#6DC02F" stroke-width="0.8"/>
+      <line x1="720" y1="620" x2="940" y2="600" stroke="#6DC02F" stroke-width="0.8"/>
+      <!-- Connections L5-L6 -->
+      <line x1="940" y1="200" x2="1120" y2="300" stroke="#FFD700" stroke-width="0.8"/>
+      <line x1="940" y1="400" x2="1120" y2="300" stroke="#FFD700" stroke-width="0.8"/>
+      <line x1="940" y1="400" x2="1120" y2="500" stroke="#FFD700" stroke-width="0.8"/>
+      <line x1="940" y1="600" x2="1120" y2="500" stroke="#FFD700" stroke-width="0.8"/>
+    </g>
+
+    <!-- Solar panel grid top-right -->
+    <g transform="translate(950,20) rotate(-15)" opacity="0.6">
+      <rect x="0" y="0" width="220" height="130" rx="6" fill="none" stroke="#00AEEF" stroke-width="1"/>
+      <line x1="0" y1="43" x2="220" y2="43" stroke="#00AEEF" stroke-width="0.7"/>
+      <line x1="0" y1="87" x2="220" y2="87" stroke="#00AEEF" stroke-width="0.7"/>
+      <line x1="55" y1="0" x2="55" y2="130" stroke="#00AEEF" stroke-width="0.7"/>
+      <line x1="110" y1="0" x2="110" y2="130" stroke="#00AEEF" stroke-width="0.7"/>
+      <line x1="165" y1="0" x2="165" y2="130" stroke="#00AEEF" stroke-width="0.7"/>
+      <!-- sun rays -->
+      <circle cx="280" cy="-30" r="28" fill="#FFD700" opacity="0.5"/>
+      <line x1="280" y1="-65" x2="280" y2="-78" stroke="#FFD700" stroke-width="2"/>
+      <line x1="280" y1="15" x2="280" y2="28" stroke="#FFD700" stroke-width="2"/>
+      <line x1="245" y1="-30" x2="232" y2="-30" stroke="#FFD700" stroke-width="2"/>
+      <line x1="315" y1="-30" x2="328" y2="-30" stroke="#FFD700" stroke-width="2"/>
+      <line x1="256" y1="-56" x2="247" y2="-65" stroke="#FFD700" stroke-width="2"/>
+      <line x1="304" y1="-4" x2="313" y2="5" stroke="#FFD700" stroke-width="2"/>
+      <line x1="256" y1="-4" x2="247" y2="5" stroke="#FFD700" stroke-width="2"/>
+      <line x1="304" y1="-56" x2="313" y2="-65" stroke="#FFD700" stroke-width="2"/>
+    </g>
+
+    <!-- Fuel/energy atom bottom-left -->
+    <g transform="translate(30,580)" opacity="0.5">
+      <circle cx="60" cy="60" r="12" fill="#FF6B00"/>
+      <ellipse cx="60" cy="60" rx="55" ry="20" fill="none" stroke="#FF6B00" stroke-width="1.2" transform="rotate(0,60,60)"/>
+      <ellipse cx="60" cy="60" rx="55" ry="20" fill="none" stroke="#8B2FC9" stroke-width="1.2" transform="rotate(60,60,60)"/>
+      <ellipse cx="60" cy="60" rx="55" ry="20" fill="none" stroke="#00AEEF" stroke-width="1.2" transform="rotate(120,60,60)"/>
+      <circle cx="115" cy="60" r="5" fill="#FF6B00"/>
+      <circle cx="32" cy="13" r="5" fill="#8B2FC9"/>
+      <circle cx="32" cy="107" r="5" fill="#00AEEF"/>
+    </g>
+
+    <!-- Circuit traces bottom-right -->
+    <g transform="translate(1000,680)" opacity="0.4" stroke="#6DC02F" stroke-width="1" fill="none">
+      <polyline points="0,0 60,0 60,-40 120,-40 120,-80 180,-80"/>
+      <polyline points="0,-20 40,-20 40,-60 100,-60 100,-100 160,-100 160,-60 200,-60"/>
+      <circle cx="60" cy="0" r="4" fill="#6DC02F"/>
+      <circle cx="120" cy="-40" r="4" fill="#6DC02F"/>
+      <circle cx="40" cy="-20" r="4" fill="#6DC02F"/>
+      <circle cx="100" cy="-60" r="4" fill="#6DC02F"/>
+      <circle cx="160" cy="-100" r="4" fill="#6DC02F"/>
+    </g>
+  </svg>
+
+  <div class="hero-particles" id="particles"></div>
+
+  <div class="hero-content">
+    <div class="organizer-badge">Innovation & Startup Cell</div>
+
+    <div class="college-logo-area">
+      <img src="images/rcas-logo.png" alt="RCAS Logo" onerror="this.style.display='none'">
+    </div>
+
+    <div class="isc-title" style="color:var(--blue); font-size:0.8rem; margin-bottom:18px;">Innovation and Startup Cell — Proudly Presents</div>
+
+    <div class="sankalp-devanagari">சங்கல்ப்</div>
+    <div class="hero-title">SANKALP</div>
+    <div class="hero-subtitle">2026 &nbsp;·&nbsp; A Firm Resolve</div>
+
+    <div class="sankalp-meaning">
+      <span class="meaning-letter"><span class="ml">S</span>incerity</span>
+      <span class="meaning-sep">·</span>
+      <span class="meaning-letter"><span class="ml">A</span>mbition</span>
+      <span class="meaning-sep">·</span>
+      <span class="meaning-letter"><span class="ml">N</span>ovation</span>
+      <span class="meaning-sep">·</span>
+      <span class="meaning-letter"><span class="ml">K</span>nowledge</span>
+      <span class="meaning-sep">·</span>
+      <span class="meaning-letter"><span class="ml">A</span>ction</span>
+      <span class="meaning-sep">·</span>
+      <span class="meaning-letter"><span class="ml">L</span>eadership</span>
+      <span class="meaning-sep">·</span>
+      <span class="meaning-letter"><span class="ml">P</span>urpose</span>
+    </div>
+
+    <div class="tagline">
+      <strong>⚡ <span style="font-family:'Catamaran',sans-serif;">சங்கல்ப்</span> — A determined resolve of the human mind.</strong><br>
+      We don't find solutions using AI alone. We build the future with human intelligence, human values, and human will.
+    </div>
+
+    <div class="date-chips">
+      <div class="chip chip-orange">📋 Idea Submission Opens: 03 Apr 2026</div>
+      <div class="chip chip-blue">⏰ Deadline: 17 Apr 2026 | 5:00 PM</div>
+      <div class="chip chip-purple">📣 Results: 20 Apr 2026</div>
+      <div class="chip chip-green">🔥 Final Hackathon: 24 Apr 2026</div>
+    </div>
+
+    <a href="#register" class="cta-btn">JOIN SANKALP 2026</a>
+
+    <div class="naac-badge">⭐ NAAC A++ Accredited &nbsp;|&nbsp; CGPA Score 3.6</div>
+  </div>
+
+  <div class="scroll-indicator">SCROLL ↓</div>
+</div>
+
+
+<!-- ═══════════════════════════ TIMELINE ═══════════════════════════ -->
+<section id="timeline">
+<section>
+  <div class="container">
+    <div class="section-label">Schedule</div>
+    <div class="section-title">SANKALP <span>Timeline</span></div>
+
+    <div class="timeline">
+
+      <div class="tl-item">
+        <div class="tl-card">
+          <div class="tl-step">Step 01</div>
+          <div class="tl-title">Idea Submission Opens</div>
+          <div class="tl-date">03 April 2026</div>
+          <div class="tl-time">Portal opens for all participants</div>
+        </div>
+        <div class="tl-dot"></div>
+        <div style="flex:1"></div>
+      </div>
+
+      <div class="tl-item">
+        <div style="flex:1"></div>
+        <div class="tl-dot blue"></div>
+        <div class="tl-card">
+          <div class="tl-step">Step 02</div>
+          <div class="tl-title">First Round Idea Submission Deadline</div>
+          <div class="tl-date" style="color:var(--blue);">17 April 2026</div>
+          <div class="tl-time">⏰ Hard Deadline: 5:00 PM IST</div>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-card">
+          <div class="tl-step">Step 03</div>
+          <div class="tl-title">First Round Selection Intimation</div>
+          <div class="tl-date" style="color:var(--purple);">20 April 2026</div>
+          <div class="tl-time">Selected teams will be notified</div>
+        </div>
+        <div class="tl-dot purple"></div>
+        <div style="flex:1"></div>
+      </div>
+
+      <div class="tl-item">
+        <div style="flex:1"></div>
+        <div class="tl-dot green"></div>
+        <div class="tl-card">
+          <div class="tl-step">Step 04</div>
+          <div class="tl-title">🔥 Final Hackathon</div>
+          <div class="tl-date" style="color:var(--green);">24 April 2026</div>
+          <div class="tl-time">Build. Pitch. Win. At RCAS Campus, Coimbatore</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══ THEMES ═══ -->
+<section style="background:#07111a; position:relative; overflow:hidden;">
+
+  <!-- Solar + fuel background illustration -->
+  <svg style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none;opacity:0.12;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice">
+    <!-- Big sun -->
+    <circle cx="1100" cy="80" r="120" fill="#FFD700" opacity="0.6"/>
+    <circle cx="1100" cy="80" r="90" fill="#FF6B00" opacity="0.5"/>
+    <circle cx="1100" cy="80" r="60" fill="#FFD700"/>
+    <!-- Sun rays -->
+    <g stroke="#FFD700" stroke-width="3" opacity="0.7">
+      <line x1="1100" y1="-60" x2="1100" y2="-90"/>
+      <line x1="1100" y1="220" x2="1100" y2="250"/>
+      <line x1="960" y1="80" x2="930" y2="80"/>
+      <line x1="1240" y1="80" x2="1270" y2="80"/>
+      <line x1="1001" y1="-19" x2="981" y2="-39"/>
+      <line x1="1199" y1="179" x2="1219" y2="199"/>
+      <line x1="1001" y1="179" x2="981" y2="199"/>
+      <line x1="1199" y1="-19" x2="1219" y2="-39"/>
+    </g>
+    <!-- Solar panels left -->
+    <g transform="translate(30,100)" stroke="#00AEEF" stroke-width="1.2" fill="none" opacity="0.9">
+      <rect x="0" y="0" width="300" height="180" rx="4"/>
+      <line x1="0" y1="60" x2="300" y2="60"/>
+      <line x1="0" y1="120" x2="300" y2="120"/>
+      <line x1="75" y1="0" x2="75" y2="180"/>
+      <line x1="150" y1="0" x2="150" y2="180"/>
+      <line x1="225" y1="0" x2="225" y2="180"/>
+    </g>
+    <!-- Energy bolt center -->
+    <polygon points="580,50 550,280 600,220 570,460 640,180 580,230 620,50" fill="#FF6B00" opacity="0.7"/>
+    <!-- Fuel molecule right -->
+    <g transform="translate(700,300)" opacity="0.8">
+      <circle cx="80" cy="80" r="18" fill="#8B2FC9"/>
+      <circle cx="160" cy="40" r="12" fill="#FF6B00"/>
+      <circle cx="160" cy="120" r="12" fill="#00AEEF"/>
+      <circle cx="20" cy="40" r="12" fill="#6DC02F"/>
+      <circle cx="20" cy="120" r="12" fill="#FFD700"/>
+      <line x1="80" y1="80" x2="160" y2="40" stroke="#8B2FC9" stroke-width="2"/>
+      <line x1="80" y1="80" x2="160" y2="120" stroke="#8B2FC9" stroke-width="2"/>
+      <line x1="80" y1="80" x2="20" y2="40" stroke="#8B2FC9" stroke-width="2"/>
+      <line x1="80" y1="80" x2="20" y2="120" stroke="#8B2FC9" stroke-width="2"/>
+    </g>
+    <!-- Wind turbine silhouette -->
+    <g transform="translate(420,350)" opacity="0.5" stroke="#6DC02F" stroke-width="2" fill="none">
+      <line x1="30" y1="0" x2="30" y2="200"/>
+      <ellipse cx="30" cy="0" rx="3" ry="3" fill="#6DC02F"/>
+      <line x1="30" y1="0" x2="90" y2="-60" stroke-width="3"/>
+      <line x1="30" y1="0" x2="-30" y2="-60" stroke-width="3"/>
+      <line x1="30" y1="0" x2="30" y2="-80" stroke-width="3"/>
+    </g>
+  </svg>
+  <div class="container">
+    <div class="section-label">Hackathon Themes</div>
+    <div class="section-title">Choose Your <span>Challenge</span></div>
+
+    <div class="themes-grid">
+
+      <div class="theme-card theme-1">
+        <div class="theme-icon">🌍</div>
+        <div class="theme-num">Theme 01</div>
+        <div class="theme-name">Future Fuels: Current Crisis</div>
+        <div class="theme-desc">
+          Address real-world challenges around energy, environment, climate, food security, water scarcity, and societal issues. Innovate solutions that matter — not for tomorrow, but for today's crisis.
+          <br><br>Think: sustainable systems, smart resource management, disaster preparedness, pollution control, and public health.
+        </div>
+      </div>
+
+      <div class="theme-card theme-2">
+        <div class="theme-icon">☀️</div>
+        <div class="theme-num">Theme 02</div>
+        <div class="theme-name">Solar as Source</div>
+        <div class="theme-desc">
+          Harness the power of the sun. Design innovative products, systems, or services that use solar energy as a primary source to solve problems in agriculture, transportation, education, healthcare, or rural development.
+          <br><br>Think: solar-powered IoT, off-grid solutions, clean mobility, smart agriculture, and sustainable infrastructure.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════ PRIZES ═══════════════════════════ -->
+<section class="prizes-section" style="position:relative;overflow:hidden;">
+  <svg style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none;opacity:0.08;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice">
+    <!-- Radiating energy lines from center -->
+    <g transform="translate(600,300)" stroke="#FFD700" stroke-width="1.5" opacity="0.8">
+      <line x1="0" y1="0" x2="0" y2="-300"/><line x1="0" y1="0" x2="0" y2="300"/>
+      <line x1="0" y1="0" x2="300" y2="0"/><line x1="0" y1="0" x2="-300" y2="0"/>
+      <line x1="0" y1="0" x2="212" y2="-212"/><line x1="0" y1="0" x2="-212" y2="-212"/>
+      <line x1="0" y1="0" x2="212" y2="212"/><line x1="0" y1="0" x2="-212" y2="212"/>
+      <line x1="0" y1="0" x2="280" y2="-115"/><line x1="0" y1="0" x2="-280" y2="-115"/>
+      <line x1="0" y1="0" x2="280" y2="115"/><line x1="0" y1="0" x2="-280" y2="115"/>
+      <line x1="0" y1="0" x2="115" y2="-280"/><line x1="0" y1="0" x2="-115" y2="-280"/>
+      <line x1="0" y1="0" x2="115" y2="280"/><line x1="0" y1="0" x2="-115" y2="280"/>
+    </g>
+    <circle cx="600" cy="300" r="40" fill="#FFD700" opacity="0.3"/>
+    <circle cx="600" cy="300" r="20" fill="#FF6B00" opacity="0.5"/>
+    <!-- Hexagon grid (fuel cell pattern) -->
+    <g stroke="#8B2FC9" stroke-width="0.8" fill="none" opacity="0.6">
+      <polygon points="100,100 130,83 160,100 160,133 130,150 100,133"/>
+      <polygon points="160,100 190,83 220,100 220,133 190,150 160,133"/>
+      <polygon points="220,100 250,83 280,100 280,133 250,150 220,133"/>
+      <polygon points="900,400 930,383 960,400 960,433 930,450 900,433"/>
+      <polygon points="960,400 990,383 1020,400 1020,433 990,450 960,433"/>
+      <polygon points="1020,400 1050,383 1080,400 1080,433 1050,450 1020,433"/>
+    </g>
+  </svg>
+  <div class="container">
+    <div class="section-label">Awards</div>
+    <div class="section-title">Prize <span>Pool</span></div>
+
+    <div class="prizes-grid">
+
+      <div class="prize-card second">
+        <div class="prize-rank">🥈</div>
+        <div class="prize-label">Second Prize</div>
+        <div class="prize-amount">₹5,000</div>
+        <div class="prize-sub">Runner Up</div>
+      </div>
+
+      <div class="prize-card first">
+        <div class="prize-rank">🏆</div>
+        <div class="prize-label">First Prize</div>
+        <div class="prize-amount">₹10,000</div>
+        <div class="prize-sub">Champion</div>
+      </div>
+
+      <div class="prize-card third">
+        <div class="prize-rank">🥉</div>
+        <div class="prize-label">Third Prize</div>
+        <div class="prize-amount">₹3,000</div>
+        <div class="prize-sub">Second Runner Up</div>
+      </div>
+
+    </div>
+
+    <div class="reg-fee">
+      <div style="display:flex;justify-content:center;gap:40px;flex-wrap:wrap;">
+        <div>
+          <div class="fee-amt">₹250/-</div>
+          <div class="fee-label">Individual &nbsp;·&nbsp; per member</div>
+        </div>
+        <div style="border-left:1px solid rgba(255,255,255,0.1);"></div>
+        <div>
+          <div class="fee-amt" style="color:var(--blue);">₹400/-</div>
+          <div class="fee-label">Team &nbsp;·&nbsp; per team (up to 4)</div>
+        </div>
+      </div>
+      <div class="fee-label" style="margin-top:14px;">Student Registration Fee</div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════ GUIDELINES ═══════════════════════════ -->
+<section class="guidelines-section" style="position:relative;overflow:hidden;">
+
+  <!-- AI Brain + circuit background -->
+  <svg style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none;opacity:0.1;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice">
+    <!-- Brain outline left -->
+    <g transform="translate(20,100)" fill="none" stroke="#8B2FC9" stroke-width="1.5" opacity="0.9">
+      <path d="M100,200 C40,180 20,120 60,80 C80,50 120,40 150,60 C160,30 200,10 230,30 C260,10 300,20 310,60 C340,40 380,60 370,100 C400,100 420,140 400,170 C420,200 400,240 370,240 C360,270 320,290 290,270 C270,300 230,300 210,280 C190,300 150,290 140,260 C110,270 80,250 100,200Z"/>
+      <!-- brain folds -->
+      <path d="M120,120 C140,100 170,110 160,140"/>
+      <path d="M200,80 C220,60 250,80 240,110"/>
+      <path d="M280,100 C300,80 330,100 310,130"/>
+      <path d="M110,170 C130,150 160,165 150,195"/>
+      <path d="M230,160 C250,140 280,160 260,190"/>
+      <path d="M320,150 C340,130 360,155 340,180"/>
+      <path d="M150,220 C170,200 200,215 190,245"/>
+      <path d="M260,230 C280,210 310,225 295,255"/>
+    </g>
+    <!-- Circuit traces right side -->
+    <g transform="translate(750,50)" stroke="#00AEEF" stroke-width="1.2" fill="none" opacity="0.8">
+      <polyline points="0,100 80,100 80,50 180,50 180,150 280,150 280,80 380,80"/>
+      <polyline points="0,200 60,200 60,280 160,280 160,200 260,200 260,300 360,300 360,200 440,200"/>
+      <polyline points="0,350 100,350 100,420 200,420 200,350 300,350 300,450 400,450"/>
+      <circle cx="80" cy="100" r="5" fill="#00AEEF"/>
+      <circle cx="180" cy="50" r="5" fill="#00AEEF"/>
+      <circle cx="280" cy="150" r="5" fill="#00AEEF"/>
+      <circle cx="60" cy="200" r="5" fill="#FFD700"/>
+      <circle cx="160" cy="280" r="5" fill="#FFD700"/>
+      <circle cx="260" cy="200" r="5" fill="#FFD700"/>
+      <circle cx="100" cy="350" r="5" fill="#6DC02F"/>
+      <circle cx="200" cy="420" r="5" fill="#6DC02F"/>
+      <circle cx="300" cy="350" r="5" fill="#6DC02F"/>
+    </g>
+    <!-- Data stream lines top -->
+    <g opacity="0.4" stroke="#FF6B00" stroke-width="1">
+      <line x1="500" y1="0" x2="500" y2="900" stroke-dasharray="8,16"/>
+      <line x1="600" y1="0" x2="600" y2="900" stroke-dasharray="8,16"/>
+      <line x1="700" y1="0" x2="700" y2="900" stroke-dasharray="8,16"/>
+    </g>
+    <!-- Atom bottom center -->
+    <g transform="translate(550,700)" opacity="0.7">
+      <circle cx="60" cy="60" r="15" fill="#FF6B00"/>
+      <ellipse cx="60" cy="60" rx="60" ry="22" fill="none" stroke="#FF6B00" stroke-width="1.5"/>
+      <ellipse cx="60" cy="60" rx="60" ry="22" fill="none" stroke="#8B2FC9" stroke-width="1.5" transform="rotate(60,60,60)"/>
+      <ellipse cx="60" cy="60" rx="60" ry="22" fill="none" stroke="#00AEEF" stroke-width="1.5" transform="rotate(120,60,60)"/>
+    </g>
+  </svg>
+  <div class="container">
+    <div class="section-label">Rules & Guidelines</div>
+    <div class="section-title">Participation <span>Guidelines</span></div>
+
+    <div class="guidelines-grid">
+
+      <div class="guideline-card">
+        <div class="guideline-icon">📝</div>
+        <div class="guideline-title">Idea Submission</div>
+        <div class="guideline-text">
+          <ul>
+            <li>Submit your idea abstract online before 17 Apr 2026, 5:00 PM</li>
+            <li>Abstract must be original and not previously submitted anywhere</li>
+            <li>Include problem statement, proposed solution, and expected impact</li>
+            <li>Maximum 500 words or 10 slides for the First Round submission</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="guideline-card blue-border">
+        <div class="guideline-icon">👥</div>
+        <div class="guideline-title">Team Composition</div>
+        <div class="guideline-text">
+          <ul>
+            <li>Individual participants are welcome</li>
+            <li>Teams can have up to 4 members</li>
+            <li>Cross-department and inter-college teams are encouraged</li>
+            <li>Team registration fee: ₹400/- per team (regardless of team size)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="guideline-card orange-border">
+        <div class="guideline-icon">⚙️</div>
+        <div class="guideline-title">Final Hackathon Day</div>
+        <div class="guideline-text">
+          <ul>
+            <li>Selected teams must report by 9:00 AM on 24 April 2026</li>
+            <li>Bring your own laptop and required hardware/components</li>
+            <li>Teams will present a working prototype or demo</li>
+            <li>Judging based on innovation, feasibility, and impact</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="guideline-card green-border">
+        <div class="guideline-icon">🏆</div>
+        <div class="guideline-title">Judging Criteria</div>
+        <div class="guideline-text">
+          <ul>
+            <li>Innovation & Creativity (25%)</li>
+            <li>Technical Feasibility (25%)</li>
+            <li>Social / Environmental Impact (25%)</li>
+            <li>Presentation & Communication (25%)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="guideline-card">
+        <div class="guideline-icon">🚫</div>
+        <div class="guideline-title">Prohibited Practices</div>
+        <div class="guideline-text">
+          <ul>
+            <li>Plagiarism of any kind will lead to disqualification</li>
+            <li>Fully AI-generated solutions without human reasoning are not accepted</li>
+            <li>No use of others' proprietary data or intellectual property</li>
+            <li>Any form of misconduct will result in immediate elimination</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="guideline-card blue-border">
+        <div class="guideline-icon">📋</div>
+        <div class="guideline-title">General Rules</div>
+        <div class="guideline-text">
+          <ul>
+            <li>All participants must carry valid college ID on the event day</li>
+            <li>Registration fees are non-refundable</li>
+            <li>Decision of the judges is final and binding</li>
+            <li>Organizers reserve rights to make changes with prior notice</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="hi-banner">
+      <h3>⚠️ The SANKALP Principle — Human Intelligence First</h3>
+      <p>
+        SANKALP means <strong>a firm resolve</strong>. This hackathon is built on the resolve that <strong>human minds lead, and tools serve</strong>. While you may use AI as an assistant, the <strong>core ideas, problem framing, and solutions must reflect genuine human insight and creativity</strong>. We are building a future that is safe, meaningful, and human-led.
+        <br><br>
+        <strong>"Don't find the solution only using AI tools. Use human intelligence for human future safety."</strong>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════ PARTICIPATION ═══════════════════════════ -->
+<section style="background:#060e18;">
+  <div class="container">
+    <div class="section-label">Who Can Apply</div>
+    <div class="section-title">Open to <span>Everyone</span></div>
+
+    <div class="participation-grid">
+      <div class="part-card" style="border-top: 3px solid var(--orange);">
+        <div class="part-icon">🧑‍💻</div>
+        <div class="part-title">Individual</div>
+        <div class="part-desc">Solo innovators are welcome! Come with your idea and build it alone.<br><br><strong style="color:var(--orange);">Registration Fee: ₹250/- per member</strong></div>
+      </div>
+      <div class="part-card" style="border-top: 3px solid var(--blue);">
+        <div class="part-icon">👨‍👩‍👧‍👦</div>
+        <div class="part-title">Team (Up to 4 Members)</div>
+        <div class="part-desc">Collaborate with peers from any department or college. One registration covers the entire team.<br><br><strong style="color:var(--blue);">Registration Fee: ₹400/- per team</strong></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+<section class="footer-section" id="register">
+  <div class="container">
+    <img src="images/rcas-logo.png" class="footer-logo" alt="RCAS Logo" onerror="this.style.display='none'">
+    <div class="footer-org">Rathinam College of Arts and Science</div>
+    <div class="footer-org" style="color:var(--blue); font-size:0.8rem;">Innovation and Startup Cell</div>
+    <div class="footer-divider"></div>
+    <div class="footer-addr">
+      Rathinam Techzone Campus<br>
+      Pollachi Road, Eachanari<br>
+      Coimbatore, Tamil Nadu, India – 641021
+    </div>
+    <div class="naac-badge" style="margin-bottom:30px;">⭐ NAAC A++ Accredited &nbsp;|&nbsp; CGPA Score 3.6</div>
+    <div class="footer-divider"></div>
+    <div class="footer-copy">© 2026 Rathinam College of Arts & Science &nbsp;|&nbsp; SANKALP 2026 — A Firm Resolve</div>
+  </div>
+</section>
+
+<script src="js/main.js"></script>
+</body>
+</html>
